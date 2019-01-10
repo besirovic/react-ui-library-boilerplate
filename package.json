@@ -1,0 +1,72 @@
+{
+  "name": "ts-react-parcel",
+  "version": "1.0.0",
+  "description": "React library boilerplate with Typescript, Parcel and Storybook",
+  "main": "index.js",
+  "repository": "https://github.com/besirovic/TS-React-Parcel.git",
+  "author": "besirovic",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "yarn dev",
+    "dev": "parcel watch ./src/index.tsx",
+    "build": "parcel build ./src/index.tsx",
+    "storybook": "start-storybook -p 6006 -c .storybook"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@storybook/addon-actions": "^4.1.6",
+    "@storybook/addon-info": "^4.1.6",
+    "@storybook/addon-links": "^4.1.6",
+    "@storybook/addon-notes": "^4.1.6",
+    "@storybook/addons": "^4.1.6",
+    "@storybook/cli": "^4.1.6",
+    "@storybook/react": "^4.1.6",
+    "@types/jest": "^23.3.12",
+    "@types/storybook-readme": "^4.0.0",
+    "@types/storybook__react": "^4.0.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.12.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^7.0.2",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.3",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.11.0",
+    "raw-loader": "^1.0.0",
+    "react-docgen-typescript-loader": "^3.0.0",
+    "react-docgen-typescript-webpack-plugin": "^1.1.0",
+    "sass-loader": "^7.1.0",
+    "standard-markdown": "^5.0.1",
+    "storybook-readme": "^4.0.2",
+    "style-loader": "^0.23.1",
+    "ts-jest": "^23.10.5",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.2.2"
+  },
+  "peerDependencies": {
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "plugins": [
+      "markdown"
+    ]
+  }
+}
