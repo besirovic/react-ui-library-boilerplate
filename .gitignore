@@ -63,5 +63,8 @@ typings/
 # Dist files
 dist
 
+# Storybook build output
+.out
+
 # Cache
 .cache
