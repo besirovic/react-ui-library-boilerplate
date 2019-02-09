@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ButtonProps } from './ButtonProps';
+import { ButtonProps } from './IButton';
 
 import './style/button.scss';
 
